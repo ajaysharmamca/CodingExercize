@@ -1,8 +1,10 @@
+package my.test;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
 //Given a list of employees, check whether any department has more than 10 employees.
-public class Test {
+public class CheckDepartment10Employees {
     void main() {
 
         List<Employee> employees = List.of(
@@ -49,3 +51,5 @@ public class Test {
 
 
 }
+
+
