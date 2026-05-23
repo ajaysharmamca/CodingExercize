@@ -30,7 +30,7 @@ public class AllElementsAreUnique {
         Set<Employee> employeeSet = new HashSet<>();
         boolean var = employees.stream().anyMatch(e -> !employeeSet.add(e));
 
-        System.out.println("" + var);
+        System.out.println("" + !(var));
     }
 
     record Employee(int id, String name, String department, double salary) {

@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class CheckArrayHasDuplicate {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,1,7,8,9,10};
+        int[] arr = {1,2,3,4,5,7,8,9,10};
         System.out.println(containsDuplicate(arr) ? "Yes" : "No");
     }
 

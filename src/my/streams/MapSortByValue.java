@@ -14,6 +14,7 @@ public class MapSortByValue {
         map.put("Aman", 3 );
         map.put("Mahesh", 4 );
         map.put("Mahesh", 3 );
+        //map.pu
         map.forEach((k,v) -> System.out.println(k + " " + v));
         Map<String, Integer> collect = map.entrySet().stream().sorted(Comparator.comparing(Map.Entry::getValue)).
                 collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1,
